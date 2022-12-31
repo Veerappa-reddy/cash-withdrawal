@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  height: 75%;
+}
+.name-container {
+  display: flex;
+}
+.icon {
+  background-color: #c7d2fe;
+  height: 65px;
+  width: 65px;
+  border-radius: 50px;
+  color: #7c3aed;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+}
+.name {
+  color: #c7d2fe;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #585076;
+}
+.amount-in-rupess {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #585076;
+}
+.amount {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.withdraw {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.choose-sum {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #585076;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
